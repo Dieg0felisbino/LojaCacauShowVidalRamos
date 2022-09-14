@@ -10,6 +10,9 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BootsTrap icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <title>Cacau Show Vidal Ramos</title>
 </head>
 <body>
@@ -36,16 +39,17 @@
                 <img src="imagens/logo_cacau_show.svg" alt="Logo Cacau Show" class="locoCacau" id="logo-cacau">
             </div>
         
-            <div class="overlay-content" id="menu">
-                <div class="row algin-items-center">
-        
-                <a href="#graos" class="col col-sm-12 col-md-12 col-lg-3">GRÃO 3 CORAÇÕES<hr class="hR"></a>
+            <div id="positionMenu">
+                <div class="overlay-content" id="menu">
+                    <div class="row algin-items-center">
+                    <a href="#graos" class="col col-sm-12 col-md-12 col-lg-3">GRÃO 3 CORAÇÕES<hr class="hR"></a>
                 
-                <a href="#bebidasquentes" class="col col-sm-12 col-md-12 col-lg-3">BEBIDAS QUENTES<hr class="hR"></a>
+                    <a href="#bebidasquentes" class="col col-sm-12 col-md-12 col-lg-3">BEBIDAS QUENTES<hr class="hR"></a>
                 
-                <a href="#bebidasgeladas" class="col col-sm-12 col-md-12 col-lg-3">BEBIDAS GELADAS<hr class="hR"></a>
+                    <a href="#bebidasgeladas" class="col col-sm-12 col-md-12 col-lg-3">BEBIDAS GELADAS<hr class="hR"></a>
                 
-                <a href="#sobremesas" class="col col-sm-12 col-md-12 col-lg-3">SOBREMESAS<hr class="hR"></a>
+                    <a href="#sobremesas" class="col col-sm-12 col-md-12 col-lg-3">SOBREMESAS<hr class="hR"></a>
+                    </div>
                 </div>
             </div>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -54,12 +58,11 @@
 </div>
         <div id="centralizar-corpo">
             <div class="container">
-                <div class="sobre">
-                    <h2 id="graos" class="titulo">GRÃOS 3 CORAÇÕES<hr class="hR"></h2>
+                <h2 id="graos" class="titulo">GRÃOS 3 CORAÇÕES<hr class="hR"></h2>
             
-                    <p id="sobre">Utilizado o Espresso Gourmet 3 Corações.<br>Uma bebida cremosa e de sabor marcante preparada sob as condições ideais de temperatura e pressão. O equilíbrio entre aroma intenso, notas exuberantes e acidez discreta é fruto das perfeitas condições de clima, onde os grãos da linha Gourmet são cultivados.</p>
-                </div>
-                    <h2 id="bebidasquentes" class="titulo">BEBIDAS QUENTES<hr class="hR"></h2>
+                <p id="sobre">Utilizado o Espresso Gourmet 3 Corações.<br>Uma bebida cremosa e de sabor marcante preparada sob as condições ideais de temperatura e pressão. O equilíbrio entre aroma intenso, notas exuberantes e acidez discreta é fruto das perfeitas condições de clima, onde os grãos da linha Gourmet são cultivados.</p>
+                    
+                <h2 id="bebidasquentes" class="titulo">BEBIDAS QUENTES<hr class="hR"></h2>
             
                 <ol>
                 <div id="itens">
@@ -67,15 +70,15 @@
                 </div>
                     <div class="row algin-items-center">
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>PEQUENO R$ 6,50 - 65ml</h4>
+                            <h4 id="subTitle">PEQUENO R$ 6,50 - 65ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/espresso-pequeno-250px.jpg" alt="Espresso P" id="imagens">
                         </div>
                         <div class="col align-items-center col-sm-12 col-md-12 col-lg-4">
-                            <h4>GRANDE R$ 8,00 - 200ml</h4>
+                            <h4 id="subTitle">GRANDE R$ 8,00 - 200ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/espresso-grande-250px.jpg" alt="Espresso G" id="imagens">
                         </div>
                         <div class="col align-items-start col-sm-12 col-md-12 col-lg-4">
-                          <h4 class="text-center">CONHEÇA MELHOR</h4>
+                          <h4 id="subTitle">CONHEÇA MELHOR</h4>
                           <p> <strong>Café Espresso</strong><br>Grãos Três Corações Gourmet 100% Arábica.<br>Foto ilustrativa.</p>
                         </div>
                       </div>
@@ -84,17 +87,17 @@
                 </div>
                     <div class="row algin-items-center">
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>PEQUENO R$ 6,25 - 65ml</h4>
+                            <h4 id="subTitle">PEQUENO R$ 6,25 - 65ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/carioca-pequeno-250px.jpg" alt="Carioca P" id="imagens">
             
                         </div>
             
                         <div class="col align-items-center col-sm-12 col-md-12 col-lg-4">
-                            <h4>GRANDE R$ 8,00 - 200ml</h4>
+                            <h4 id="subTitle">GRANDE R$ 8,00 - 200ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/carioca-grande-250px.jpg" alt="Carioca G" id="imagens">
                         </div>
                         <div class="col align-items-center col-sm-12 col-md-12 col-lg-4">
-                            <h4 class="text-center">CONHEÇA MELHOR</h4>
+                            <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                 <p><strong>Café Carioca</strong><br>Grãos Três Corações Gourmet 100% Arábica.<br>Foto ilustrativa.</p>
             
                             </div>
@@ -104,15 +107,15 @@
                 </div>
                     <div class="row algin-items-center">
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>PEQUENO R$ 7,00 - 65ml</h4>
+                            <h4 id="subTitle">PEQUENO R$ 7,00 - 65ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/espresso-com-leite-250px.jpg" alt="Espresso com leite P" id="imagens">
                         </div>
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>GRANDE R$ 9,50 - 200ml</h4>
+                            <h4 id="subTitle">GRANDE R$ 9,50 - 200ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/espresso-com-leite-grande-250px.jpg" alt="Espresso com leite G" id="imagens">
                         </div>
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>CONHEÇA MELHOR</h4>
+                            <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                 <p><strong>Espresso com Leite</strong><br>
                                 Grãos Três Corações Gourmet 100% Arábica.<br>Foto ilustrativa.</p>
                         </div>
@@ -123,15 +126,15 @@
                 </div>
                     <div class="row algin-items-center">
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>PEQUENO R$ 7,50 - 65ml</h4>
+                            <h4 id="subTitle">PEQUENO R$ 7,50 - 65ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/cappuccino-tradicional-pequeno-250px.jpg" alt="Cappuccino tradicional P" id="imagens">
                         </div>
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>GRANDE R$ 9,00 - 200ml</h4>
+                            <h4 id="subTitle">GRANDE R$ 9,00 - 200ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/cappuccino-tradicional-grande-250px.jpg" alt="Cappuccino tradicional G" id="imagens">
                         </div>
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>CONHEÇA MELHOR</h4>
+                            <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                 <p><strong>Cappuccino Tradicional</strong><br>Espresso, Chocolate em Pó Cremoso, Leite Vaporizado e
                                 Raspas de Chocolate ao Leite. <br>Foto ilustrativa.</p>
                         </div>
@@ -141,15 +144,15 @@
                     </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>PEQUENO R$ 11,20 - 65ml</h4>
+                                    <h4 id="subTitle">PEQUENO R$ 11,20 - 65ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/cappuccino-lacreme-pequeno-250px.jpg" alt="Cappuccino lacreme P" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>GRANDE R$ 15,90 - 200ml</h4>
+                                    <h4 id="subTitle">GRANDE R$ 15,90 - 200ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/cappuccino-lacreme-grande-250px.jpg" alt="Cappuccino lacreme G" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>CONHEÇA MELHOR</h4>
+                                    <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>Cappuccino LaCreme</strong><br>Uma Trufa LaCreme ao Leite de 13,5g, Espresso, Chocolate em Pó Cremoso, Leite Vaporizado e Raspas de Chocolate ao Leite.<br>Foto ilustrativa.</p>
                                 </div>
                             </div>
@@ -158,15 +161,15 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>PEQUENO R$ 9,00 - 65ml</h4>
+                                    <h4 id="subTitle">PEQUENO R$ 9,00 - 65ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/cappuccino-intensidade-pequeno-250px.jpg" alt="Cappuccino lacreme P" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>GRANDE R$ 11,00 - 200ml</h4>
+                                    <h4 id="subTitle">GRANDE R$ 11,00 - 200ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/cappuccino-intensidade-grande-250px.jpg" alt="Cappuccino lacreme G" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>CONHEÇA MELHOR</h4>
+                                    <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                     <p><strong>Cappuccino Intensidade</strong><br>Espresso, Chocolate em Pó Cremoso, Leite Vaporizado e Raspas de Chocolate ao Leite.<br>Foto ilustrativa.</p>
                                 </div>
                             </div>
@@ -175,15 +178,15 @@
                             </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>PEQUENO R$ 9,00 - 65ml</h4>
+                                    <h4 id="subTitle">PEQUENO R$ 9,00 - 65ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/cappuccino-cremoso-pequeno-250px.jpg" alt="Cappuccino cremoso P" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>GRANDE R$ 11,00 - 200ml</h4>
+                                    <h4 id="subTitle">GRANDE R$ 11,00 - 200ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/cappuccino-cremoso-grande-250px.jpg" alt="Cappuccino cremoso G" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>CONHEÇA MELHOR</h4>
+                                    <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                     <p><strong>Cappuccino Cremoso</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci, enim neque aperiam autem ipsum perferendis, officiis vero ullam unde impedit nobis deserunt at qui ipsa sunt consequatur dignissimos optio.<br>Foto ilustrativa.</p>
                                 </div>
                             </div>
@@ -192,11 +195,11 @@
                             </div>
                             <div class="row algin-items-center">
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                        <h4>PADRÃO R$ 14,50 - 200ml</h4>
+                                        <h4 id="subTitle">PADRÃO R$ 14,50 - 200ml</h4>
                                         <img src="imagens/imagens-2.0/photos-corretas/moccaccino-250px.jpg" alt="Cappuccino cremoso P" id="imagens">
                                     </div>
                                     <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                        <h4>CONHEÇA MELHOR</h4>
+                                        <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                                 <p><strong>Moccaccino</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci, enim neque aperiam autem ipsum perferendis, officiis vero ullam unde impedit nobis deserunt at qui ipsa sunt consequatur dignissimos optio.<br>Foto ilustrativa.</p>                                    
                                     </div>
                                 </div>
@@ -205,15 +208,15 @@
                         </div>
                             <div class="row algin-items-center">
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>PEQUENO R$ 8,50 - 75ml</h4>
+                                    <h4 id="subTitle">PEQUENO R$ 8,50 - 75ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/chocolate-quente-trad-pequeno-250px.jpg" alt="Chocolate quente tradicional P" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>GRANDE R$ 10,50 - 200ml</h4>
+                                    <h4 id="subTitle">GRANDE R$ 10,50 - 200ml</h4>
                                     <img src="imagens/imagens-2.0/photos-corretas/chocolate-quente-trad-grande-250px.jpg" alt="Chocolate quente tradicional G" id="imagens">
                                 </div>
                                 <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                    <h4>CONHEÇA MELHOR</h4>
+                                    <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                             <p><strong>Chocolate Quente Tradicional</strong><br>Chocolate em Pó, Leite vaporizado e raspas de
                                                 Chocolate ao leite.<br>Foto ilustrativa.</p>
                                 </div>
@@ -223,15 +226,15 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>PEQUENO R$ 11,20 - 75ml</h4>
+                                <h4 id="subTitle">PEQUENO R$ 11,20 - 75ml</h4>
                                 <img src="imagens/imagens-2.0/photos-corretas/chocolate-quente-lacreme-pequeno-250px.jpg" alt="Chocolate quente lacreme P" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>GRANDE R$ 15,50 - 200ml</h4>
+                                <h4 id="subTitle">GRANDE R$ 15,50 - 200ml</h4>
                                 <img src="imagens/imagens-2.0/photos-corretas/chocolate-quente-lacreme-grande-250px.jpg" alt="Chocolate quente lacreme G" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>Chocolate Quente LaCreme</strong><br> Uma deliciosa combinação de Chocolate em Pó, Leite vaporizado, raspas de Chocolate ao leite e uma trufa LaCreme ao leite 13,5g para o pequeno e duas trufas para o grande.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -241,16 +244,16 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>PEQUENO R$ 10,00 - 75ml</h4>
+                                <h4 id="subTitle">PEQUENO R$ 10,00 - 75ml</h4>
                                 <img src="imagens/imagens-2.0/photos-corretas/chocolate-quente-cremoso-pequeno-250px.jpg" alt="Chocolate quente cremoso P" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>GRANDE R$ 12,50 - 200ml</h4>
+                                <h4 id="subTitle">GRANDE R$ 12,50 - 200ml</h4>
                                 <img src="imagens/imagens-2.0/photos-corretas/chocolate-quente-cremoso-grande-250px.jpg" alt="Chocolate quente cremoso G" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
-                                        <p><strong>Chocolate Quente Cremoso</strong><br>Uma incrivel combinaçõa de Chocolate em Pó, Leite vaporizado e raspas de Chocolate ao leite para se deliciar de colher.<br>Foto ilustrativa.</p>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
+                                        <p><strong>Chocolate Quente Cremoso</strong><br>Uma incrivel combinação de Chocolate em Pó, Leite vaporizado e raspas de Chocolate ao leite para se deliciar de colher.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
                 <h2 id="bebidasgeladas" class="titulo">BEBIDAS GELADAS<hr class="hR"></h2>
@@ -260,11 +263,11 @@
                 </div>
                     <div class="row algin-items-center">
                         <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                            <h4>GRANDE R$ 10,00 - 200ml</h4>
+                            <h4 id="subTitle">GRANDE R$ 10,00 - 200ml</h4>
                             <img src="imagens/imagens-2.0/photos-corretas/cappuccino-gelado-250px.jpg" alt="cappuccino gelado" id="imagens">
                         </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                 <p><strong>CAPPUCCINO GELADO</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -273,11 +276,11 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>R$ 14,00 - 200ml</h4>
+                                <h4 id="subTitle">R$ 14,00 - 200ml</h4>
                                 <img src="imagens/imagens-2.0/photos-corretas/chocolate-gelado-250px.jpg" alt="Chocolate gelado" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                     <p><strong>CHOCOLATE GELADO</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>                            
                             </div>
                         </div>
@@ -287,11 +290,11 @@
                 </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>R$ 10,50 - 200ml</h4>
+                                <h4 id="subTitle">R$ 10,50 - 200ml</h4>
                                 <img src="imagens/imagens-2.0/photos-corretas/cafe-gelado-250px.jpg" alt="Café tradicional gelado" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>CAFÉ TRADICIONAL GELADO</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -300,11 +303,11 @@
                 </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>R$ 17,00 - 200ml</h4>
+                                <h4 id="subTitle">R$ 17,00 - 200ml</h4>
                                 <img src="imagens/img-full.png" alt="Sundae chocolate e morango" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>SUNDAE CHOCOLATE E MORANGO</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -316,11 +319,11 @@
                 </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>PADRÃO R$ 17,90 - 160g</h4>
+                                <h4 id="subTitle">PADRÃO R$ 17,90 - 160g</h4>
                                 <img src="imagens/img-full.png" alt="Fondue frutas 160g" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>FONDUE FRUTAS</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -329,11 +332,11 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>PADRÃO R$ 39,80</h4>
+                                <h4 id="subTitle">PADRÃO R$ 39,80</h4>
                                 <img src="imagens/img-full.png" alt="Fondue na panelinha" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>FONDUE NA PANELINHA</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -342,11 +345,11 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>PADRÃO R$ 20,90</h4>
+                                <h4 id="subTitle">PADRÃO R$ 20,90</h4>
                                 <img src="imagens/img-full.png" alt="Petit gateau" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>PETIT GATEAU</strong><br>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>
                                             Foto ilustrativa.</p>
@@ -357,11 +360,11 @@
                         </div>
                         <div class="row algin-items-center">
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>PADRÃO R$ 22,90 200ml</h4>
+                                <h4 id="subTitle">PADRÃO R$ 22,90 - 200ml</h4>
                                 <img src="imagens/img-full.png" alt="grand gateau" id="imagens">
                             </div>
                             <div class="col align-items-center col-sm-12 col-md-12  col-lg-4">
-                                <h4>CONHEÇA MELHOR</h4>
+                                <h4 id="subTitle">CONHEÇA MELHOR</h4>
                                         <p><strong>GRAND GATEAU</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam facere corrupti, et quis similique impedit molestias perferendis quidem atque neque beatae eius fugit deserunt minus, quisquam cumque ducimus nostrum.<br>Foto ilustrativa.</p>
                             </div>
                         </div>
@@ -379,7 +382,7 @@
     <div id="rodape" class="container-fluid">
             <div class="row algin-items-center">
                 <div class="col-12 algin-items-center">
-                    <h3 class="text-center">CACAU SHOW VIDAL RAMOS<hr></h3>
+                    <h3 class="text-center" id="subTitle">CACAU SHOW VIDAL RAMOS<hr></h3>
                 </div>
 
                 <div class="col-lg-6 algin-items-center text-center col-sm-12 col-md-6">
@@ -392,8 +395,17 @@
                 </div>
 
                  <div class="col-lg-6 algin-items-center text-center col-sm-12 col-md-6">
-                    <a href="https://api.whatsapp.com/send?phone=5548988025904"><img src="imagens/logo-whatsapp-60.png" alt="whatsapp" id="whatsapp"></a>
-                    <a href="https://www.instagram.com/lojacacaushowvidalramos/"><img src="imagens/logo-instagram-black.png" alt="instagram" id="instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5548988025904">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" id="whatsapp">
+                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                          </svg>
+                    </a>
+
+                    <a href="https://www.instagram.com/lojacacaushowvidalramos/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" id="instagram">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </a>
                     <p>Fundada em 2004<br><a href="https://www.google.com/maps/place/R.+Vidal+Ramos,+126+-+Centro,+Florian%C3%B3polis+-+SC,+88010-320/@-27.5954133,-48.5591504,15z/data=!4m13!1m7!3m6!1s0x952738236307b90b:0xfbe3efc3b673b764!2sR.+Vidal+Ramos,+126+-+Centro,+Florian%C3%B3polis+-+SC,+88010-320!3b1!8m2!3d-27.5954133!4d-48.5503957!3m4!1s0x952738236307b90b:0xfbe3efc3b673b764!8m2!3d-27.5954133!4d-48.5503957" class="endereco">Rua Vidal Ramos, 126</a></p>
                 </div>
 

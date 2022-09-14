@@ -50,15 +50,20 @@ HTML body{
    margin-right: auto;
  }
  #centralizador-container{
-   width: 55%;
+   width: 80%;
    margin-left: auto;
    margin-right: auto;
  }
  @media screen and (width < 400px){
    #centralizador-container{
-      width: 75%;
+      width: 90%;
       align-items: center;
    }   
+ }
+ @media screen and (width < 900px) and ( width > 400px){
+   #centralizador-container{
+      width: 85%;
+   }
  }
 
  .nav-button{
@@ -129,26 +134,41 @@ HTML body{
    padding-top: 20px;
  }
 
+   @media screen and (width < 900px) {
+      #subTitle{
+         padding-top: 20px
+      }
+      #positionMenu{
+         width: 100%;
+         height: 75%;
+      }      
+   }
+
+   
  .sobre{
     margin-top: 5px;
     padding: 10px;
     width: 95%;
  }
 
- img#instagram{
-    display: inline-block;
-    max-width: 35px;
-    position: relative;
+   #instagram{
     margin-left: 5px;
+    color: white;
+    text-decoration: none;
  }
 
- img#whatsapp{
-    display: inline-block;
-    max-width: 35px;
-    position: relative;
+ #whatsapp{
     margin-right: 5px;
+    color: white;
+    text-decoration: none;
  }
 
+ @media screen and (width < 900px) {
+   #instagram, #whatsapp{
+      margin-bottom: 10px;
+   }
+   
+ }
  #rodape{
     background-color: #6da276;
     width: 100%;
@@ -353,6 +373,7 @@ HTML body{
       margin-left: auto;
       margin-right: auto;
       margin-top: 10%;
+      margin-bottom: 20px;
    }
  }
  .whatsapp{
