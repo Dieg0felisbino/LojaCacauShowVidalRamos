@@ -2,7 +2,7 @@ let largura = window.screen.width
 console.log(largura)
 let navButton = window.document.getElementById("navButton")
 let closeBtn = window.document.querySelector(".closebtn")
-let logoCacau = window.document.querySelector("#logo-cacau")
+//let logoCacau = window.document.querySelector("#logo-cacau")
 
 
 //verificador de largura para esconder ou mostrar botões de menu e logo Cacau Show
@@ -13,7 +13,7 @@ if (largura > 1000){
 } else{
   navButton.classList.remove("hide")
   closeBtn.classList.remove("hide")
-  logoCacau.classList.remove("hide")
+  //logoCacau.classList.remove("hide")
 
 }
 
